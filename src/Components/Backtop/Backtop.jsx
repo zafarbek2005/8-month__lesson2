@@ -1,6 +1,6 @@
 import { BiChevronUp } from "react-icons/bi"; 
 import React, { useState, useEffect } from 'react';
-import './backtop.css'; 
+import './backtop.scss'; 
 
 const BackToTop = () => {
     const [showButton, setShowButton] = useState(false);

@@ -1,10 +1,10 @@
+import { AiFillGithub } from "react-icons/ai"; 
+import { AiFillLinkedin } from "react-icons/ai"; 
+import { FaTelegramPlane } from "react-icons/fa"; 
+import { AiOutlineInstagram } from "react-icons/ai"; 
 import React, { useState, useEffect } from 'react';
 import './Navbar.scss';
 import bg from './img/ng.jpg'
-import { AiOutlineInstagram } from "react-icons/ai"; 
-import { FaTelegramPlane } from "react-icons/fa"; 
-import { AiFillGithub } from "react-icons/ai"; 
-import { AiFillLinkedin } from "react-icons/ai"; 
 import k1 from './img/k1.jpeg'
 import k2 from './img/k2.jpeg'
 import k3 from './img/k3.jpeg'
@@ -77,16 +77,20 @@ const Portfolio = () => {
 
                   <h3>HEY, I'M ZAFARBEK KARIMBOYEV</h3>
                   <p>A Result-Oriented Web br Developer building and managing Websites and Web <br /> Applications that leads to the success of the overall product</p>
-                  <a href="#"><button>Projects</button></a>
+                  <a href="#projects"><button>Projects</button></a>
 
                 </div>
 
                 <div className="container">
                 <div className="hero__icons">
-                    <span><AiFillLinkedin /></span>
-                    <span><AiFillGithub /></span>
-                    <span><FaTelegramPlane /></span>
-                    <span><AiOutlineInstagram /></span>
+                <a href="https://www.instagram.com/zafarbek_20.05/"  target="_blank"><span><AiOutlineInstagram /></span></a>
+                  <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
+                 <a href="https://uz.linkedin.com/">
+                 <span><AiFillLinkedin /></span>
+                 </a>
+               <a href="https://github.com/zafarbek2005/  ">
+               <span><AiFillGithub /></span>
+               </a>
                 </div>
                 
                 </div>
@@ -112,7 +116,7 @@ const Portfolio = () => {
         you have a good opportunity that matches my skills and experience then  <br />
         don't hesitate to contact me.</p>
 
-                 <a href="#">
+                 <a href="#contact">
                  <button>contact me</button>
                  </a>
                     </div>
@@ -212,7 +216,33 @@ const Portfolio = () => {
 </section>
 
 
+    <section id='footer'>
+        <footer>
+          <div className="txtss">
+              <div className="h3">
+                  <h3>KARIMBOYEV ZAFARBEK</h3>  
+                  <p>A Frontend focused Web Developer building the Frontend of Websites and <br /> Web Applications that leads to the success of the overall product</p>
+              </div>
 
+              <div className="social">
+                <h3>SOCIAL</h3>
+                <a href="https://www.instagram.com/zafarbek_20.05/"  target="_blank"><span><AiOutlineInstagram /></span></a>
+                  <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
+                 <a href="https://uz.linkedin.com/">
+                 <span><AiFillLinkedin /></span>
+                 </a>
+               <a href="https://github.com/zafarbek2005/  ">
+               <span><AiFillGithub /></span>
+               </a>
+              </div>
+          </div>
+
+        <div className="lime"></div>
+          <p id="copyright">© Copyright 2024 . Made by <a href="https://t.me/ZAFARBEK_1337" target="_blank">Zafarbek Karimboyev</a></p>
+        </footer>
+
+
+    </section>
 
 
 

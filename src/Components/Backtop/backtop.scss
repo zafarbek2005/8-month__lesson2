@@ -7,7 +7,7 @@
     background-color:#fff;
     color: #000;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s;
@@ -18,3 +18,17 @@
       }
 }
 
+@media   (max-width: 700px){
+
+  .back-to-top{
+    right: 5px;
+    bottom: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size:22px;
+    bottom: 80px;
+  }
+}
+   

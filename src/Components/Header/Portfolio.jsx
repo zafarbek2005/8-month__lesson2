@@ -49,7 +49,7 @@ const Portfolio = () => {
             <a href="#About">About</a>
             <a href="#projects">Projects</a>  
             <a href="#contact">Contact</a>
-            <a href="https://www.canva.com/design/DAGHSnwE8Jg/2dxufwgo6l_yu2E_hR9RUg/edit" target="_blank">My Resume</a>
+            <a href="https://drive.google.com/file/d/1L9Kg8BUD2UrPYKqc4SVPB2HATKEAlVx4/view?usp=sharing" target="_blank">My Resume</a>
           </div>
           <button className={`nav_toggle ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
             <span className="bar"></span>

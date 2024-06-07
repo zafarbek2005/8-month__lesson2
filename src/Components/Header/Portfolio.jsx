@@ -8,6 +8,7 @@ import bg from './img/ng.jpg'
 import k1 from './img/k1.jpeg'
 import k2 from './img/k2.jpeg'
 import k3 from './img/k3.jpeg'
+import Logo from './img/logo.jpg'
 
 const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,14 +42,14 @@ const Portfolio = () => {
       <header className={shrink ? 'shrink' : ''}>
         <div className="Navbar container">
           <div className="nav__logo">
-            <img src="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg" alt="logo.png" />
-            <a href="#">ZAFARBEK KARIMBOYEV</a>
+            <img src= {Logo} alt="" />
           </div>
           <div className={`nav_items ${isOpen ? 'open' : ''}`}>
-            <a href="#" onClick={handleClose}>Home</a>
-            <a href="#About" onClick={handleClose}>About</a>
-            <a href="#projects" onClick={handleClose}>Projects</a>
-            <a href="#contact" onClick={handleClose}>Contact</a>
+            <a href="#">Home</a>
+            <a href="#About">About</a>
+            <a href="#projects">Projects</a>  
+            <a href="#contact">Contact</a>
+            <a href="https://www.canva.com/design/DAGHSnwE8Jg/2dxufwgo6l_yu2E_hR9RUg/edit" target="_blank">My Resume</a>
           </div>
           <button className={`nav_toggle ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
             <span className="bar"></span>
@@ -82,16 +83,18 @@ const Portfolio = () => {
                 </div>
 
                 <div className="container">
-                <div className="hero__icons">
-                <a href="https://www.instagram.com/zafarbek_20.05/"  target="_blank"><span><AiOutlineInstagram /></span></a>
-                  <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
-                 <a href="https://uz.linkedin.com/">
-                 <span><AiFillLinkedin /></span>
-                 </a>
-               <a href="https://github.com/zafarbek2005/  ">
-               <span><AiFillGithub /></span>
-               </a>
-                </div>
+                {/* <div className="hero__icons">
+               <div className="iconhero">
+                  <a href="https://www.instagram.com/zafarbek_20.05/"  target="_blank"><span><AiOutlineInstagram /></span></a>
+                      <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
+                    <a href="https://uz.linkedin.com/">
+                    <span><AiFillLinkedin /></span>
+                    </a>
+                  <a href="https://github.com/zafarbek2005/  ">
+                  <span><AiFillGithub /></span>
+                  </a>
+               </div>
+                </div> */}
                 
                 </div>
                 
@@ -125,14 +128,15 @@ const Portfolio = () => {
                         <button>HTML</button>
                         <button>CSS</button>
                         <button>JavaScript</button>
-                        <button>React JS</button> <br />
+                        <button>React JS</button> 
                         <button>React redux</button>
                         <button>ZUSTAND</button>
-                        <button>Redux toolkit</button> <br />
+                        <button>Redux toolkit</button> 
                         <button>Rtk Query</button>
                         <button>SASS</button>
                         <button>Tailwind</button>
-                        <button>GIT</button> <br />
+                        <button>Mui</button>
+                        <button>GIT</button> 
                         <button>Github</button>
                     </div>
                 </div>

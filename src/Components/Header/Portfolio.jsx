@@ -71,7 +71,7 @@ const Portfolio = () => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 height: '750px',
-                w100: '100%',
+                width: '100%',
                 }}
                 >
                 <div className="hero container">
@@ -219,34 +219,27 @@ const Portfolio = () => {
   </div>
 </section>
 
+<section id='footer'>
+    <footer>
+        <div class="txtss">
+            <div class="h3">
+                <h3>KARIMBOYEV ZAFARBEK</h3>
+                <p>A Frontend focused Web Developer building the Frontend of Websites and <br /> Web Applications that leads to the success of the overall product</p>
+            </div>
 
-    <section id='footer'>
-        <footer>
-          <div className="txtss">
-              <div className="h3">
-                  <h3>KARIMBOYEV ZAFARBEK</h3>  
-                  <p>A Frontend focused Web Developer building the Frontend of Websites and <br /> Web Applications that leads to the success of the overall product</p>
-              </div>
-
-              <div className="social">
+            <div class="social">
                 <h3>SOCIAL</h3>
-                <a href="https://www.instagram.com/zafarbek_20.05/"  target="_blank"><span><AiOutlineInstagram /></span></a>
-                  <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
-                 <a href="https://uz.linkedin.com/">
-                 <span><AiFillLinkedin /></span>
-                 </a>
-               <a href="https://github.com/zafarbek2005/  ">
-               <span><AiFillGithub /></span>
-               </a>
-              </div>
-          </div>
+                <a href="https://www.instagram.com/zafarbek_20.05/" target="_blank"><span><AiOutlineInstagram /></span></a>
+                <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
+                <a href="https://uz.linkedin.com/" target="_blank"><span><AiFillLinkedin /></span></a>
+                <a href="https://github.com/zafarbek2005/" target="_blank"><span><AiFillGithub /></span></a>
+            </div>
+        </div>
 
-        <div className="lime"></div>
-          <p id="copyright">© Copyright 2024 . Made by <a href="https://t.me/ZAFARBEK_1337" target="_blank">Zafarbek Karimboyev</a></p>
-        </footer>
-
-
-    </section>
+        <div class="lime"></div>
+        <p id="copyright">© Copyright 2024. Made by <a href="https://t.me/ZAFARBEK_1337" target="_blank">Zafarbek Karimboyev</a></p>
+    </footer>
+</section>
 
 
 

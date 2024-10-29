@@ -49,7 +49,7 @@ const Portfolio = () => {
             <a href="#About">About</a>
             <a href="#projects">Projects</a>  
             <a href="#contact">Contact</a>
-            <a href="https://drive.google.com/file/d/1L9Kg8BUD2UrPYKqc4SVPB2HATKEAlVx4/view?usp=sharing" target="_blank">My Resume</a>
+            <a href="https://drive.google.com/file/d/1-GAtkCpxIcjxgzmT8AOBGBwGD0CZMgfz/view?usp=sharing" target="_blank">My Resume</a>
           </div>
           <button className={`nav_toggle ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
             <span className="bar"></span>
@@ -82,21 +82,7 @@ const Portfolio = () => {
 
                 </div>
 
-                <div className="container">
-                {/* <div className="hero__icons">
-               <div className="iconhero">
-                  <a href="https://www.instagram.com/zafarbek_20.05/"  target="_blank"><span><AiOutlineInstagram /></span></a>
-                      <a href="https://t.me/ZAFARBEK_1337" target="_blank"><span><FaTelegramPlane /></span></a>
-                    <a href="https://uz.linkedin.com/">
-                    <span><AiFillLinkedin /></span>
-                    </a>
-                  <a href="https://github.com/zafarbek2005/  ">
-                  <span><AiFillGithub /></span>
-                  </a>
-               </div>
-                </div> */}
-                
-                </div>
+              
                 
                 
                 </div>
@@ -219,9 +205,9 @@ const Portfolio = () => {
   </div>
 </section>
 
-<section id='footer'>
+<section id='footer' >
     <footer>
-        <div class="txtss">
+        <div class="txtss container">
             <div class="h3">
                 <h3>KARIMBOYEV ZAFARBEK</h3>
                 <p>A Frontend focused Web Developer building the Frontend of Websites and <br /> Web Applications that leads to the success of the overall product</p>

@@ -366,8 +366,10 @@
     border-radius: 5px;
     margin-top: 20px;
     margin: 20px;
-    font-size: 24px;
+    font-size: 32px;
+    padding: 10px;
     border: 1px solid rgb(225, 225, 225);
+    transition: all 0.3s ease;
       &:hover{
         transform: rotate(10deg);
 
